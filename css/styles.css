@@ -1,1 +1,11 @@
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Fondo general */
+    color: #F2FEDC; /* Texto principal */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
