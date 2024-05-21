@@ -9,3 +9,118 @@ body {
     min-height: 100vh;
 }
 
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #2AA39B; /* Fondo de la barra lateral */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h2 {
+    color: #E7EFB3; /* Títulos de la barra lateral */
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    margin-bottom: 20px;
+    color: #E7EFB3; /* Texto de la barra lateral */
+}
+
+.sidebar .tab {
+    background: none;
+    border: none;
+    color: #68D585; /* Color de las pestañas */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sidebar .tab:hover {
+    color: #00AD97; /* Color al pasar el cursor por encima */
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+    background-color: #000; /* Fondo de la sección principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registro-tab,
+#contacto-tab {
+    display: none;
+}
+
+.form-section {
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-container {
+    background-color: #222; /* Fondo de los formularios */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#registro-tab:checked ~ .form-section #form-registro,
+#contacto-tab:checked ~ .form-section #form-contacto {
+    display: block;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #F2FEDC; /* Título de los formularios */
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #F2FEDC; /* Etiquetas de los formularios */
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Fondo de los campos */
+    color: #E7EFB3; /* Texto dentro de los campos */
+}
+
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+    color: #999; /* Placeholder color */
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7F9C00; /* Botones */
+    border: none;
+    border-radius: 5px;
+    color: #000; /* Texto del botón */
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #39A6AC; /* Botones al pasar el cursor por encima */
+}
