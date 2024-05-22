@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: inter;
     background-color: #141414; /* Fondo general */
     color: #F2FEDC; /* Texto principal */
     display: flex;
@@ -16,18 +16,19 @@ body {
 
 .sidebar {
     width: 300px;
-    background-color: #2AA39B; /* Fondo de la barra lateral */
+    background-color: #222
+    ; /* Fondo de la barra lateral */
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar h2 {
     color: #E7EFB3; /* Títulos de la barra lateral */
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .sidebar p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #E7EFB3; /* Texto de la barra lateral */
 }
 
@@ -35,7 +36,7 @@ body {
     background: none;
     border: none;
     color: #68D585; /* Color de las pestañas */
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
@@ -62,7 +63,7 @@ body {
 }
 
 .form-section {
-    max-width: 600px;
+    max-width: 610px;
     width: 100%;
 }
 
@@ -81,14 +82,14 @@ body {
 
 .form-container h2 {
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 36px;
     text-align: center;
     color: #F2FEDC; /* Título de los formularios */
 }
 
 .form-container label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: bold;
     color: #F2FEDC; /* Etiquetas de los formularios */
 }
@@ -116,7 +117,7 @@ body {
     border: none;
     border-radius: 5px;
     color: #000; /* Texto del botón */
-    font-size: 1em;
+    font-size: 24;
     font-weight: bold;
     cursor: pointer;
 }
