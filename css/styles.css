@@ -1,4 +1,83 @@
-body
-{
-    background-color: rgb(231, 239, 179);
+ 
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Fondo general */
+    color: #FFF; /* Texto principal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.casos-exito {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    background-color: #333; /* Fondo de la sección */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #FFF; /* Color del texto dentro de la sección */
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    color: #7F9C00; /* Títulos */
+}
+
+.intro p {
+    margin-bottom: 20px;
+}
+
+.casos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.caso {
+    background-color: #2AA39B; /* Fondo del caso */
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFF; /* Color del texto dentro del caso */
+    text-align: center;
+}
+
+.caso video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+blockquote {
+    margin: 0;
+    padding: 20px;
+    background-color: #7F9C00; /* Fondo del blockquote */
+    border-left: 5px solid #00AD97; /* Borde izquierdo del blockquote */
+    font-style: italic;
+    border-radius: 4px;
+    color: #FFF; /* Color del texto del blockquote */
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #FFF; /* Color de la cita */
+    font-style: normal;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #141414;
+    padding: 20px;
+    text-align: center;
+    color: #777; /* Color del texto del pie de página */
 }
