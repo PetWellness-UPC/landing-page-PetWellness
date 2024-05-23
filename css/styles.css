@@ -28,7 +28,7 @@ body {
 }
 
 .sidebar p {
-    
+    margin-bottom: 30px;
     color: #E7EFB3; /* Texto de la barra lateral */
 }
 
