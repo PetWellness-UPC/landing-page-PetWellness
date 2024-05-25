@@ -948,6 +948,7 @@ letter-spacing: 2px;
 position: relative;
 display: flex;
 flex-direction: column;
+background-color: #E7EFB3;
 }
 .pet-wellness .flexCol {
 position: relative;
