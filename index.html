@@ -1,28 +1,53 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>PetWellness</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <div class="main-container">
-      <div class="rectangle">
-        <div class="text">
-          <span class="video-explicativo-petwellness"
-            >Video Explicativo de PetWellness</span
-          ><span class="main-features-benefits"
-            >A continuación, te mostraremos un video donde el equipo de
-            desarrollo de PetWellness explica brevemente las principales
-            caracteristicas y beneficios que tiene nuestra plataforma :)
-            </span>
-        </div>
-        <div class="rectangle-1">
-          <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </body>
-</html
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+</head>
+
+<body class="flex-column">
+    <main class="pet-wellness main">
+        <section class="aboutSection" id="acerca-de" style="--src:url(../img/FondoDegradadoAmarillo.png)">
+            <div class="aboutContainer">
+                <img class="aboutImage" src="./img/GatitoEchado.png" alt="alt text" />
+                <div class="aboutContentContainer">
+                    <h2 class="aboutTitle">Acerca de</h2>
+                    <div class="aboutLineDivider"></div>
+                    <h1 class="aboutParagraph">
+                        Somos una iniciativa dedicada a promover el bienestar y la salud de su mascota.  Aportando informacion y
+                        cuidados esenciales.
+                    </h1>
+                </div>
+            </div>
+            <div class="missionVisionContainer">
+                <div class="missionContainer" style="--src:url(../img/FondoDegradadoTurquesa.png)">
+                    <h2 class="missionTitle">Misión</h2>
+                    <div class="missionLineDivider"></div>
+                    <p class="missionParagraph">
+                        Nos dedicamos a promover el bienestar de las mascotas a través de información confiable y servicios
+                        veterinarios de alta calidad, con el objetivo de mejorar su calidad de vida y fortalecer el vínculo con
+                        sus dueños.
+                    </p>
+                </div>
+                <div class="visionContainer" style="--src:url(../img/FondoDegradadoVerde.png)">
+                    <img class="visionImage" src="./img/PerroVision.png" alt="alt text" />
+                    <div class="visionContentContainer">
+                        <h2 class="visionTitle">Visión</h2>
+                        <div class="visionLineDivider"></div>
+                        <p class="visionParagraph">
+                            Buscamos liderar una comunidad comprometida con el bienestar de las mascotas. Nuestra visión es un mundo
+                            donde todas las mascotas reciban amor, cuidado y atención para una vida feliz y saludable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
