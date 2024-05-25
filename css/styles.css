@@ -97,3 +97,2055 @@
     width: 100%;
     height: 100%;
   }
+
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6, hr, p, figure {
+      display: block;
+      font-size: 1em;
+      font-weight: normal;
+      margin: 0;
+      border-width: 0;
+      opacity: 1;
+  }
+  
+  ul {
+      display: block;
+      margin: 0;
+      padding: 0;
+  }
+  
+  li {
+      display: block;
+  }
+  
+  button {
+      background-color: transparent;
+      border: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+      align-items: normal;
+  }
+  
+  body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .flex-column {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .page-header {
+      z-index: 10000;
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  
+  .sticking {
+      margin: 0 !important;
+      z-index: 10000 !important;
+  }
+  
+  @media (max-width: 99999px) {
+      .max\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxxl\:show {
+          display: none;
+      }
+  
+      .xxl\:show {
+          display: none;
+      }
+  
+      .xl\:show {
+          display: none;
+      }
+  
+      .lg\:show {
+          display: none;
+      }
+  
+      .md\:show {
+          display: none;
+      }
+  
+      .sm\:show {
+          display: none;
+      }
+  
+      .xs\:show {
+          display: none;
+      }
+  
+      .xxs\:show {
+          display: none;
+      }
+  
+      .tn\:show {
+          display: none;
+      }
+  
+      .max\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 2999px) {
+      .xxxl\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxxl\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 1919px) {
+      .xxl\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxl\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 1399px) {
+      .xl\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xl\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 1199px) {
+      .lg\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .lg\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 991px) {
+      .md\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .md\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 767px) {
+      .sm\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .sm\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 575px) {
+      .xs\:show {
+          display: flex;
+          flex-direction: column;
+  
+      }
+  
+      .xs\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .xxs\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxs\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 384px) {
+      .tn\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .tn\:hide {
+          display: none;
+      }
+  }
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0")
+      format("embedded-opentype"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0")
+      format("woff2"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0")
+      format("woff"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0")
+      format("truetype"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
+      format("svg");
+}
+
+
+.navbar{
+  background-color: #e7efb3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(0px 5px 15px rgba(171, 190, 209, 0.5));
+}
+.header__logoBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1440px;
+  background: var(--src) center center/cover no-repeat;
+}
+@media (min-width: 1920px) and (max-width: 2999px) {
+  .header__logoBox {
+    max-width: 100%;
+  }
+}
+.menu {
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 4px 29px 2px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+@media (max-width: 1399px) {
+  .menu {
+    margin: 4px auto 2px;
+  }
+}
+@media (max-width: 1199px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.header__logoImage {
+  position: relative;
+  width: 218px;
+  min-width: 0px;
+  cursor: pointer;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 1199px) {
+  .header__logoImage {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+    max-width: 218px;
+  }
+}
+.lista {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 27px 0px 30px;
+  font: 500 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: -0.31px;
+  transition: color 0.3s;
+}
+
+.lista:hover {
+  color:#00ad97
+}
+
+@media (min-width: 1920px) and (max-width: 2999px) {
+  .lista {
+    align-items: flex-start;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1399px) {
+  .lista {
+    align-items: flex-start;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1199px) {
+  .lista {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.header__loginLink {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 28px 0px 29px;
+  font: 600 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  text-align: center;
+}
+@media (min-width: 1920px) and (max-width: 2999px) {
+  .header__loginLink {
+    align-items: flex-start;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1399px) {
+  .header__loginLink {
+    align-items: flex-start;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1199px) {
+  .header__loginLink {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.header__registerButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 5px;
+  margin: 18px 0px 20px;
+  min-width: 153px;
+  background-color: #00ad97;
+  border-radius: 2.784277916px 2.784277916px 2.784277916px 2.784277916px;
+  padding: 9.5px 22px 9.5px 33.5px;
+  transition: color 3s;
+}
+.header__registerButton:hover{
+  background-color: #00ECCE;
+}
+
+@media (max-width: 1199px) {
+  .header__registerButton {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.header__registerButtonText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0px;
+  font: 800 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.header__registerButtonIcon {
+  position: relative;
+  margin: 3px 0px;
+  width: 11px;
+  min-width: 0px;
+  height: 11px;
+}
+
+.pet-wellness.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2fedc;
+  overflow: hidden;
+}
+.pet-wellness .component {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pet-wellness .inicio {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pet-wellness .contentContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 82px auto 142px;
+  width: 86.53%;
+  max-width: 1246.0227050781px;
+}
+@media (max-width: 1199px) {
+  .pet-wellness .contentContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 575px) {
+  .pet-wellness .contentContainer {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .contentContainer {
+    margin: 50px auto;
+  }
+}
+.pet-wellness .textContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 22px 0px;
+  margin: 91px 0px 56px;
+  width: 755px;
+  min-width: 0px;
+}
+@media (max-width: 1199px) {
+  .pet-wellness .textContainer {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.pet-wellness .descriptionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 11px 0px;
+}
+.pet-wellness .heroTitleBox_box {
+  position: relative;
+  min-width: 0px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .heroTitleBox_box {
+    align-items: flex-start;
+  }
+}
+.pet-wellness .heroTitleBox {
+  font: 600 60px/1.1 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .pet-wellness .heroTitleBox {
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .heroTitleBox {
+    font-size: 36px;
+  }
+}
+.pet-wellness .heroTitleBox_span0 {
+  font: 600 1em/1.1 "Inter", Helvetica, Arial, serif;
+}
+.pet-wellness .heroTitleBox_span1 {
+  font: 600 1em/1.1 "Inter", Helvetica, Arial, serif;
+  color: #b0d800;
+}
+.pet-wellness .heroTitleBox_span2 {
+  font: 800 1em/1.1 "Inter", Helvetica, Arial, serif;
+  color: #b0d800;
+}
+.pet-wellness .heroTitleBox_span3 {
+  font: 600 1em/1.1 "Inter", Helvetica, Arial, serif;
+  color: #b0d800;
+}
+.pet-wellness .mediumTitle {
+  position: relative;
+  min-width: 0px;
+  font: 400 24px/1.08 "Inter", Helvetica, Arial, serif;
+  color: #717171;
+}
+@media (max-width: 991px) {
+  .pet-wellness .mediumTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .mediumTitle {
+    font-size: 20px;
+  }
+}
+.pet-wellness .registerButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  min-width: 0px;
+  max-width: 100%;
+  font: 800 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #00ad97;
+  border-radius: 2.784277916px 2.784277916px 2.784277916px 2.784277916px;
+  padding: 15px 22px 15px 22px;
+  transition: color 0.9s;
+}
+.pet-wellness .registerButton:hover{
+  background-color: #00ECCE;
+}
+.pet-wellness .imageWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 401px;
+  min-width: 0px;
+}
+@media (max-width: 1199px) {
+  .pet-wellness .imageWrapper {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.pet-wellness .imageContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 437px;
+}
+.pet-wellness .imagePrimary {
+  position: absolute;
+  top: 0px;
+  left: 80.9943237305px;
+  width: 93px;
+  height: 94px;
+}
+.pet-wellness .coverImage {
+  position: absolute;
+  top: 35.9943161011px;
+  left: 50%;
+  width: 400.99px;
+  height: 401px;
+  transform: translate(-50%, 0);
+}
+.pet-wellness .supportingImage1 {
+  position: absolute;
+  bottom: 26.9886169434px;
+  left: 0.9943237305px;
+  width: 111.99px;
+  height: 97px;
+}
+.pet-wellness .supportingImage2 {
+  position: absolute;
+  right: 21.9886837006px;
+  bottom: 50px;
+  width: 20.99px;
+  height: 67px;
+}
+.pet-wellness .aboutSection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--src) center center/cover no-repeat;
+}
+
+@media (max-width: 1199px) {
+  .pet-wellness .aboutSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 72px;
+  }
+}
+.pet-wellness .aboutContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 46px 0px;
+  margin: 137px 0px 26px 30px;
+  width: 857px;
+  min-width: 0px;
+  max-width: 856.9885864258px;
+  padding: 0px;
+}
+@media (max-width: 1199px) {
+  .pet-wellness .aboutContainer {
+    margin: 0px 0px 0px 30px;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 991px) {
+  .pet-wellness .aboutContainer {
+    margin: 0px auto;
+  }
+}
+.pet-wellness .aboutImage {
+  position: relative;
+  width: 482.9971313477px;
+  max-width: 85%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .aboutContentContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .aboutContentContainer {
+    padding: 0px 20px 0px 20px;
+  }
+}
+.pet-wellness .aboutTitle {
+  position: relative;
+  margin: 0px 1px 0px 0px;
+  font: 400 24px/1.16 "Rubik", Helvetica, Arial, serif;
+  color: #7f9c00;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 1399px) {
+  .pet-wellness .aboutTitle {
+    margin: 0px auto 0px 0px;
+  }
+}
+@media (max-width: 991px) {
+  .pet-wellness .aboutTitle {
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .aboutTitle {
+    font-size: 20px;
+  }
+}
+.pet-wellness .aboutLineDivider {
+  position: relative;
+  margin: 6px 0px 0px;
+  width: 20px;
+  max-width: 85%;
+  min-height: 3px;
+  background-color: #7f9c00;
+}
+.pet-wellness .aboutParagraph {
+  position: relative;
+  margin: 8px 0px 0px;
+  width: auto;
+  font: 400 32px/1.18 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  padding: 0px;
+  letter-spacing: 2px;
+  opacity: 0.64;
+}
+@media (max-width: 991px) {
+  .pet-wellness .aboutParagraph {
+    align-items: flex-start;
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .aboutParagraph {
+    font-size: 26px;
+  }
+}
+.pet-wellness .missionVisionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 481px;
+  min-width: 0px;
+  max-width: 480.9942932129px;
+}
+@media (max-width: 1199px) {
+  .pet-wellness .missionVisionContainer {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.pet-wellness .missionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/cover no-repeat;
+  border-radius: 4px 4px 4px 4px;
+  padding: 165px 30px 28px 31px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .missionContainer {
+    padding: 150px 30px 28px 31px;
+  }
+}
+@media (max-width: 575px) {
+  .pet-wellness .missionContainer {
+    padding: 80px 16px 28px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .missionContainer {
+    padding: 50px 8px 28px 8px;
+  }
+}
+.pet-wellness .missionTitle {
+  position: relative;
+  font: 400 24px/1.16 "Rubik", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .missionTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .missionTitle {
+    font-size: 20px;
+  }
+}
+.pet-wellness .missionLineDivider {
+  position: relative;
+  margin: 5px 0px 0px;
+  width: 20px;
+  max-width: 85%;
+  min-height: 3px;
+  background-color: white;
+}
+.pet-wellness .missionParagraph {
+  position: relative;
+  margin: 1px 0px 0px;
+  font: 500 13px/1.53 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 2px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .missionParagraph {
+    padding: 0px;
+  }
+}
+.pet-wellness .visionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--src) center center/cover no-repeat;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 30px 11px 31px;
+}
+@media (max-width: 575px) {
+  .pet-wellness .visionContainer {
+    padding: 5px 16px 11px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .visionContainer {
+    padding: 5px 8px 11px 8px;
+  }
+}
+.pet-wellness .visionImage {
+  position: relative;
+  width: 156.9886322021px;
+  max-width: 85%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .visionContentContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.pet-wellness .visionTitle {
+  position: relative;
+  font: 400 24px/1.16 "Rubik", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .visionTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .visionTitle {
+    font-size: 20px;
+  }
+}
+.pet-wellness .visionLineDivider {
+  position: relative;
+  margin: 5px 0px 0px;
+  width: 20px;
+  max-width: 85%;
+  min-height: 3px;
+  background-color: white;
+}
+.pet-wellness .visionParagraph {
+  position: relative;
+  margin: 1px 0px 0px;
+  font: 500 13px/1.53 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 2px;
+}
+.pet-wellness .careInfoSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pet-wellness .flexCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 118px auto 74px;
+  width: 1111.9602050781px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .pet-wellness .flexCol {
+    margin: 80px auto 74px;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .flexCol {
+    margin: 50px auto;
+  }
+}
+.pet-wellness .flexRow {
+  position: relative;
+  display: flex;
+  gap: 0px 5px;
+  width: 56.0369300842px;
+  max-width: 85%;
+}
+.pet-wellness .logoImage1 {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .logoImage2 {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .logoImage3 {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .mainImage1 {
+  position: relative;
+  margin: 99px 0px 0px;
+  width: 771.9176025391px;
+  max-width: 85%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 575px) {
+  .pet-wellness .mainImage1 {
+    margin: 80px 0px 0px;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .mainImage1 {
+    margin: 50px 0px 0px;
+  }
+}
+.pet-wellness .mainImage2 {
+  position: relative;
+  margin: 21px 0px 0px;
+  width: 681.9602050781px;
+  max-width: 85%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .flexRowMain {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 30px 0px 0px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .pet-wellness .flexRowMain {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.pet-wellness .flexColInfo {
+  position: relative;
+  display: flex;
+  background-color: #7F9C00;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  min-width: 0px;
+  padding: 30px 28px 38px 26px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .flexColInfo {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .flexColInfo {
+    padding: 30px 8px 38px 8px;
+  }
+}
+.pet-wellness .infoImage {
+  position: relative;
+  width: 186.0085144043px;
+  max-width: 85%;
+  border-radius: 8px 8px 8px 8px;
+  filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.247));
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .infoTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px 0px;
+  font: 700 24px/1.41 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -0.6px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .infoTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .infoTitle {
+    font-size: 20px;
+  }
+}
+.pet-wellness .infoSubtitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 0px;
+  font: 400 20px/1.45 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+@media (max-width: 991px) {
+  .pet-wellness .infoSubtitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .infoSubtitle {
+    font-size: 16px;
+  }
+}
+.pet-wellness .flexRowButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0px 16px;
+  margin: 43px 0px 0px;
+  width: 110.9943161011px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .pet-wellness .flexRowButton {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.pet-wellness .ctaKnowMore {
+  position: relative;
+  font: 700 17px/1.88 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.71px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .ctaKnowMore {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.pet-wellness .buttonImage {
+  position: relative;
+  width: 12px;
+  height: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .flexColConsultation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  min-width: 0px;
+  background-color: #39a6ac;
+  padding: 30px 28px 38px 26px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .flexColConsultation {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .flexColConsultation {
+    padding: 30px 8px 38px 8px;
+  }
+}
+.pet-wellness .consultationImage {
+  position: relative;
+  width: 186.0085144043px;
+  max-width: 85%;
+  border-radius: 8px 8px 8px 8px;
+  filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.247));
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .consultationTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px 0px;
+  font: 700 24px/1.41 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .consultationTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .consultationTitle {
+    font-size: 20px;
+  }
+}
+.pet-wellness .consultationSubtitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 0px;
+  font: 400 20px/1.45 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+@media (max-width: 991px) {
+  .pet-wellness .consultationSubtitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .consultationSubtitle {
+    font-size: 16px;
+  }
+}
+.pet-wellness .flexRowButtonConsultation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 43px 0px 0px;
+  width: 104.9857940674px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .pet-wellness .flexRowButtonConsultation {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.pet-wellness .ctaKnowMoreConsultation {
+  position: relative;
+  font: 700 17px/1.88 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.71px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .ctaKnowMoreConsultation {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.pet-wellness .buttonImageConsultation {
+  position: relative;
+  width: 12px;
+  height: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .flexColSpecialNeeds {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  min-width: 0px;
+  background-color: #00ad97;
+  padding: 30px 28px 38px 26px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .flexColSpecialNeeds {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 383px) {
+  .pet-wellness .flexColSpecialNeeds {
+    padding: 30px 8px 38px 8px;
+  }
+}
+.pet-wellness .specialNeedsImage {
+  position: relative;
+  width: 186.0085144043px;
+  max-width: 85%;
+  border-radius: 8px 8px 8px 8px;
+  filter: drop-shadow(4px 4px 16px rgba(0, 0, 0, 0.247));
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .specialNeedsTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px 0px;
+  font: 700 24px/1.41 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .specialNeedsTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .specialNeedsTitle {
+    font-size: 20px;
+  }
+}
+.pet-wellness .specialNeedsSubtitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 0px;
+  font: 400 20px/1.45 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+@media (max-width: 991px) {
+  .pet-wellness .specialNeedsSubtitle {
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .pet-wellness .specialNeedsSubtitle {
+    font-size: 16px;
+  }
+}
+.pet-wellness .flexRowButtonSpecialNeeds {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 14px 0px 0px;
+  width: 104.9857940674px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .pet-wellness .flexRowButtonSpecialNeeds {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.pet-wellness .ctaKnowMoreSpecialNeeds {
+  position: relative;
+  font: 700 17px/1.88 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.71px;
+}
+@media (max-width: 991px) {
+  .pet-wellness .ctaKnowMoreSpecialNeeds {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.pet-wellness .buttonImageSpecialNeeds {
+  position: relative;
+  width: 12px;
+  height: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pet-wellness .servicesSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pet-wellness .userInfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 1700px 0px 83px;
+}
+.pet-wellness .userPlanImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.pet-wellness .userDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 39px auto 118px;
+  width: 874px;
+}
+.pet-wellness .userImage {
+  position: relative;
+  width: 39.13%;
+}
+.pet-wellness .userDescription {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px 0px;
+  width: 38.1%;
+  font: 400 13.5464954376px/1.68 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  text-align: center;
+  letter-spacing: -0.15px;
+  opacity: 0.69;
+}
+.pet-wellness .pricingContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 22px 0px 0px;
+  width: 100%;
+}
+.pet-wellness .vipPlan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  min-width: 0px;
+  background-color: #e7efb3;
+  border-radius: 9.04246521px 9.04246521px 9.04246521px 9.04246521px;
+  box-shadow: 0px 28.9358882904px 57.8717765808px 0px rgba(22, 28, 45, 0.074);
+}
+.pet-wellness .vipDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9.04246521px 9.04246521px 9.04246521px 9.04246521px;
+  padding: 24px 20px 32px 20px;
+  outline: 0.9042465091px solid #e7e9ed;
+  outline-offset: -0.4521232545px;
+}
+.pet-wellness .vipTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 900 12px/1.25 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  text-align: center;
+  letter-spacing: 1.46px;
+}
+.pet-wellness .vipPriceRow {
+  position: relative;
+  display: flex;
+  margin: 29px 0px 0px;
+  width: 63.9%;
+}
+.pet-wellness .vipPrice_box {
+  position: relative;
+  width: 110px;
+  min-width: 0px;
+}
+.pet-wellness .vipPrice {
+  font: 700 21.701915741px/2.7 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+}
+.pet-wellness .vipPrice_span0 {
+  font: 700 1em/2.7 "Inter", Helvetica, Arial, serif;
+  letter-spacing: -0.73px;
+}
+.pet-wellness .vipPrice_span1 {
+  font: 700 2.4999999121em/1.08 "Inter", Helvetica, Arial, serif;
+  letter-spacing: -1.81px;
+}
+.pet-wellness .vipFrequency {
+  position: relative;
+  margin: 29px 0px 16px;
+  min-width: 0px;
+  font: 400 15.3721904755px/1.7 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.09px;
+}
+.pet-wellness .vipFeatureLine {
+  position: relative;
+  margin: 9px 0px 0px;
+  width: 277px;
+  height: 1px;
+  min-height: 1px;
+  background-color: #e7e9ed;
+}
+.pet-wellness .vipFeature1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px 0px;
+  font: 400 17.180683136px/1.68 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  text-align: center;
+  letter-spacing: -0.19px;
+}
+.pet-wellness .vipFeatureLine1 {
+  position: relative;
+  margin: 16px 0px 0px;
+  width: 277px;
+  height: 1px;
+  min-height: 1px;
+  background-color: #e7e9ed;
+}
+.pet-wellness .vipFeatureLine2 {
+  position: relative;
+  width: 277px;
+  height: 1px;
+  min-height: 1px;
+  background-color: #e7e9ed;
+}
+.pet-wellness .vipFeature2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px 0px;
+  font: 400 17.180683136px/1.68 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  text-align: center;
+  letter-spacing: -0.19px;
+}
+.pet-wellness .vipFeature3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px 0px;
+  font: 400 17.180683136px/1.68 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  text-align: center;
+  letter-spacing: -0.19px;
+}
+.pet-wellness .vipFeatureIcon {
+  position: relative;
+  width: 100%;
+  height: 1px;
+}
+.pet-wellness .vipButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 72px 39px 0px 40px;
+  width: 198px;
+  max-width: 100%;
+  font: 700 15.3721904755px/1.88 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #39a6ac;
+  border-radius: 7.2339720726px 7.2339720726px 7.2339720726px 7.2339720726px;
+  padding: 12.5px 8px 12.5px 8px;
+  letter-spacing: -0.55px;
+}
+.pet-wellness .vetPlan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 317px;
+  min-width: 0px;
+  background-color: white;
+  border-radius: 9.04246521px 9.04246521px 9.04246521px 9.04246521px;
+  padding: 24px 20px 32px 20px;
+  box-shadow: 0px 28.9358882904px 57.8717765808px 0px rgba(22, 28, 45, 0.074);
+}
+.pet-wellness .vetTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 900 12px/1.25 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  text-align: center;
+  letter-spacing: 1.46px;
+}
+.pet-wellness .vetImageRow {
+  position: relative;
+  display: flex;
+  gap: 0px 1px;
+  margin: 29px 0px 0px;
+  width: 52.35%;
+}
+.pet-wellness .vetImage1 {
+  position: relative;
+  width: 93px;
+  min-width: 0px;
+  height: 58px;
+}
+.pet-wellness .vetImage2 {
+  position: relative;
+  margin: 30px 0px 1px;
+  width: 51px;
+  min-width: 0px;
+  height: 27px;
+}
+.pet-wellness .vetFeatureLine {
+  position: relative;
+  margin: 23px 0px 0px;
+  width: 277px;
+  height: 1px;
+  min-height: 1px;
+  background-color: #e7e9ed;
+}
+.pet-wellness .vetFeature1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px 0px;
+  font: 400 17.180683136px/1.68 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  text-align: center;
+  letter-spacing: -0.19px;
+}
+.pet-wellness .vetFeatureLine1 {
+  position: relative;
+  margin: 16px 0px 0px;
+  width: 277px;
+  height: 1px;
+  min-height: 1px;
+  background-color: #e7e9ed;
+}
+.pet-wellness .vetFeatureLine2 {
+  position: relative;
+  width: 277px;
+  height: 1px;
+  min-height: 1px;
+  background-color: #e7e9ed;
+}
+.pet-wellness .vetFeature2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px 0px;
+  font: 400 17.180683136px/1.68 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  text-align: center;
+  letter-spacing: -0.19px;
+}
+.pet-wellness .vetFeature3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px 0px;
+  font: 400 17.180683136px/1.68 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  text-align: center;
+  letter-spacing: -0.19px;
+}
+.pet-wellness .vetFeatureIcon {
+  position: relative;
+  width: 100%;
+  height: 1px;
+}
+.pet-wellness .vetButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 72px 9px 0px 10px;
+  width: 258px;
+  max-width: 100%;
+  font: 700 15.3721904755px/1.88 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #68d585;
+  border-radius: 7.2339720726px 7.2339720726px 7.2339720726px 7.2339720726px;
+  padding: 12.5px 8px 12.5px 8px;
+  letter-spacing: -0.55px;
+}
+.pet-wellness .mainHero {
+  position: absolute;
+  top: 125px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 1554px;
+}
+.pet-wellness .heroImage {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+  min-height: 1554px;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.pet-wellness .heroForeground {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 116px auto 101px;
+  width: 76.25%;
+}
+.pet-wellness .mainTitle_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 57.38%;
+}
+.pet-wellness .mainTitle {
+  font: 700 48px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -1.8px;
+}
+.pet-wellness .mainTitle_span0 {
+  font: 700 1em/1.2 "Inter", Helvetica, Arial, serif;
+}
+.pet-wellness .mainTitle_span1 {
+  font: 900 1em/1.2 "Inter", Helvetica, Arial, serif;
+}
+.pet-wellness .mainTitle_span2 {
+  font: 700 1em/1.2 "Inter", Helvetica, Arial, serif;
+}
+.pet-wellness .mainTitle_span3 {
+  font: 900 1em/1.2 "Inter", Helvetica, Arial, serif;
+}
+.pet-wellness .mainTitle_span4 {
+  font: 700 1em/1.2 "Inter", Helvetica, Arial, serif;
+}
+.pet-wellness .benefitsContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 98px 0px 0px;
+  width: 100%;
+}
+.pet-wellness .constantImprovement {
+  position: relative;
+  display: flex;
+  gap: 0px 18px;
+  width: 339px;
+  min-width: 0px;
+}
+.pet-wellness .improveIcon {
+  position: relative;
+  margin: 7px 0px 95px;
+  width: 47px;
+  min-width: 0px;
+  height: 32px;
+}
+.pet-wellness .improveDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+  width: 274px;
+  min-width: 0px;
+}
+.pet-wellness .improveTitle {
+  position: relative;
+  font: 700 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.6px;
+}
+.pet-wellness .improveDescription {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+.pet-wellness .strategicAlliances {
+  position: relative;
+  display: flex;
+  gap: 0px 23px;
+  width: 338px;
+  min-width: 0px;
+}
+.pet-wellness .alliancesIcon {
+  position: relative;
+  margin: 6px 0px 92px;
+  width: 41px;
+  min-width: 0px;
+  height: 36px;
+}
+.pet-wellness .alliancesDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+  width: 274px;
+  min-width: 0px;
+}
+.pet-wellness .alliancesTitle {
+  position: relative;
+  font: 700 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.6px;
+}
+.pet-wellness .alliancesDescription {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+.pet-wellness .reliableInfo {
+  position: relative;
+  display: flex;
+  gap: 0px 25px;
+  width: 339px;
+  min-width: 0px;
+}
+.pet-wellness .infoIcon {
+  position: relative;
+  margin: 6px 0px 88px;
+  width: 40px;
+  min-width: 0px;
+  height: 40px;
+}
+.pet-wellness .infoDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+  width: 274px;
+  min-width: 0px;
+}
+.pet-wellness .infoTitle1 {
+  position: relative;
+  font: 700 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.6px;
+}
+.pet-wellness .infoDescription {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+.pet-wellness .extraBenefits {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 60px 0px 0px;
+  width: 99.64%;
+}
+.pet-wellness .videoCalls {
+  position: relative;
+  display: flex;
+  gap: 0px 22px;
+  width: 335px;
+  min-width: 0px;
+}
+.pet-wellness .videoCallIcon {
+  position: relative;
+  margin: 7px 0px 95px;
+  width: 39px;
+  min-width: 0px;
+  height: 32px;
+}
+.pet-wellness .videoCallDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+  width: 274px;
+  min-width: 0px;
+}
+.pet-wellness .videoCallTitle {
+  position: relative;
+  font: 700 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.5px;
+}
+.pet-wellness .videoCallDescription {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+.pet-wellness .timeTracking {
+  position: relative;
+  display: flex;
+  gap: 0px 25px;
+  width: 339px;
+  min-width: 0px;
+}
+.pet-wellness .trackingIcon {
+  position: relative;
+  margin: 4px 0px 89px;
+  width: 40px;
+  min-width: 0px;
+  height: 41px;
+}
+.pet-wellness .trackingDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+  width: 274px;
+  min-width: 0px;
+}
+.pet-wellness .trackingTitle {
+  position: relative;
+  font: 700 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.5px;
+}
+.pet-wellness .trackingDescription {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+.pet-wellness .flexiblePayments {
+  position: relative;
+  display: flex;
+  gap: 0px 28px;
+  margin: 0px 0px 29px;
+  width: 339px;
+  min-width: 0px;
+}
+.pet-wellness .paymentsIcon {
+  position: relative;
+  margin: 6px 0px 64px;
+  width: 37px;
+  min-width: 0px;
+  height: 35px;
+}
+.pet-wellness .paymentsDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px 0px;
+  width: 274px;
+  min-width: 0px;
+}
+.pet-wellness .paymentsTitle {
+  position: relative;
+  font: 700 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.5px;
+}
+.pet-wellness .paymentsDescription {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.21px;
+  opacity: 0.64;
+}
+.pet-wellness .socialProof {
+  position: relative;
+  display: flex;
+  gap: 0px 5px;
+  margin: 61px 0px 0px;
+  width: 5.1%;
+}
+.pet-wellness .socialIcon1 {
+  position: relative;
+  width: 15px;
+  min-width: 0px;
+  height: 15px;
+}
+.pet-wellness .socialIcon2 {
+  position: relative;
+  width: 15px;
+  min-width: 0px;
+  height: 15px;
+}
+.pet-wellness .socialIcon3 {
+  position: relative;
+  width: 15px;
+  min-width: 0px;
+  height: 15px;
+}
+.pet-wellness .testimonialsTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 71px 0px 0px;
+  font: 700 32px/1.37 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: -1.21px;
+}
+.pet-wellness .testimonialContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 22px 0px 0px;
+  width: 66.48%;
+  background-color: white;
+  border-radius: 12px 12px 12px 12px;
+  outline: 1px solid #57595e;
+  outline-offset: -0.5px;
+}
+.pet-wellness .testimonial1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px 12px 12px 12px;
+  outline: 1px solid #57595e;
+  outline-offset: -0.5px;
+}
+.pet-wellness .testimonialRow1 {
+  position: relative;
+  display: flex;
+  gap: 0px 30px;
+  margin: 30px 34px 16px 35px;
+}
+.pet-wellness .testimonialImage1 {
+  position: relative;
+  margin: 0px 0px 13px;
+  width: 111px;
+  min-width: 0px;
+  height: 111px;
+}
+.pet-wellness .testimonialDetails1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0px;
+  margin: 15px 0px 0px;
+  width: 520px;
+  min-width: 0px;
+}
+.pet-wellness .testimonialText1 {
+  position: relative;
+  font: 400 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.5px;
+}
+.pet-wellness .testimonialAuthor1 {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.31px;
+  opacity: 0.69;
+}
+.pet-wellness .testimonialWrapper1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0px 0px;
+  width: 66.48%;
+  background-color: white;
+  border-radius: 12px 12px 12px 12px;
+  outline: 1px solid #57595e;
+  outline-offset: -0.5px;
+  opacity: 0.69;
+  overflow: hidden;
+}
+.pet-wellness .testimonialRow2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0px 30px;
+  margin: 24px 34px 16px 35px;
+}
+.pet-wellness .testimonialImage2 {
+  position: relative;
+  width: 111px;
+  min-width: 0px;
+  height: 111px;
+}
+.pet-wellness .testimonialDetails2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0px;
+  width: 520px;
+  min-width: 0px;
+}
+.pet-wellness .testimonialText2 {
+  position: relative;
+  font: 400 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.5px;
+}
+.pet-wellness .testimonialAuthor2 {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.21px;
+  opacity: 0.69;
+}
+.pet-wellness .testimonialWrapper2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0px 0px;
+  width: 66.48%;
+  background-color: white;
+  border-radius: 12px 12px 12px 12px;
+  outline: 1px solid #57595e;
+  outline-offset: -0.5px;
+  opacity: 0.5;
+  overflow: hidden;
+}
+.pet-wellness .testimonialRow3 {
+  position: relative;
+  display: flex;
+  gap: 0px 30px;
+  margin: 24px 34px 13px 35px;
+}
+.pet-wellness .testimonialImage3 {
+  position: relative;
+  margin: 5px 0px 17px;
+  width: 111px;
+  min-width: 0px;
+  height: 111px;
+}
+.pet-wellness .testimonialDetails3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0px;
+  width: 520px;
+  min-width: 0px;
+}
+.pet-wellness .testimonialText3 {
+  position: relative;
+  font: 400 21px/1.52 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.5px;
+}
+.pet-wellness .testimonialAuthor3 {
+  position: relative;
+  font: 400 17px/1.7 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.41px;
+  opacity: 0.69;
+}
+.pet-wellness .moreReviews {
+  position: relative;
+  display: flex;
+  gap: 0px 9px;
+  margin: 12px 0px 0px;
+  width: 16.03%;
+}
+.pet-wellness .moreReviewsText {
+  position: relative;
+  min-width: 0px;
+  font: 700 16px/1.88 "Inter", Helvetica, Arial, serif;
+  color: #3d7c4e;
+  letter-spacing: -0.71px;
+}
+.pet-wellness .moreReviewsImage {
+  position: relative;
+  margin: 12px 0px 11px;
+  width: 10px;
+  min-width: 0px;
+  height: 9px;
+}

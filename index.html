@@ -1,28 +1,62 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>PetWellness</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <div class="main-container">
-      <div class="rectangle">
-        <div class="text">
-          <span class="video-explicativo-petwellness"
-            >Video Explicativo de PetWellness</span
-          ><span class="main-features-benefits"
-            >A continuación, te mostraremos un video donde el equipo de
-            desarrollo de PetWellness explica brevemente las principales
-            caracteristicas y beneficios que tiene nuestra plataforma :)
-            </span>
-        </div>
-        <div class="rectangle-1">
-          <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </body>
-</html
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+</head>
+
+<body class="flex-column">
+    <main class="pet-wellness main">
+        <header>
+            <div class="component">
+                <nav class="navbar nav-bg">
+                    <div class="header__logoBox">
+                        <ul class="menu">
+                            <a href="#inicio"><img class="header__logoImage" src="./img/HeaderLogo.png" alt="alt text" /></a>
+                            <li><a href="#acerca-de"><h5 class="lista">Acerca de</h5></a></li>
+                            <li><a href="#beneficios"><h5 class="lista">Nuestros Servicios</h5></a></li>
+                            <li><a href="#testimonios"><h5 class="lista">Testimonios</h5></a></li>
+                            <li><a href="#precios"><h5 class="lista">Precios</h5></a></li>
+                            <li><a href="#faq"><h5 class="lista">Preguntas Frecuentes</h5></a></li>
+                            <li><a href="#contacto"><h5 class="lista">Contacto</h5></a></li>
+                            <h5 class="header__loginLink">Iniciar sesión</h5>
+                            <button class="header__registerButton">
+                                <h5 class="header__registerButtonText">Regístrese</h5>
+                                <img class="header__registerButtonIcon" src="./img/Register_Flecha.svg" alt="alt text" />
+                            </button>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="inicio" id="inicio">
+            <div class="contentContainer">
+                <div class="textContainer">
+                    <div class="descriptionContainer">
+                        <h1 class="heroTitleBox_box">
+                            <span class="heroTitleBox"
+                  ><span class="heroTitleBox_span0">Consultas veterinarias,<br /></span><span class="heroTitleBox_span1">las </span><span class="heroTitleBox_span2">24 horas</span><span class="heroTitleBox_span3"> del día.</span></span>
+                        </h1>
+                        <h2 class="mediumTitle">
+                            Te ofrecemos la información de cuidados para tu mascota, buscar la clínica más cercana a tu ubicación y
+                            la manera más fácil de reservar consultas con veterinarios calificados.
+                        </h2>
+                    </div>
+                    <button class="registerButton">Regístrese</button>
+                </div>
+                <div class="imageWrapper">
+                    <div class="imageContainer">
+                        <img class="imagePrimary" src="./img/PolygonoDePuntosIMG.svg" alt="alt text" /><img class="coverImage" src="./img/Veterinaria.png" alt="alt text" /><img class="supportingImage1" src="./img/BordesCirculares.svg" alt="alt text" /><img class="supportingImage2" src="./img/SerpentinaVerde.svg" alt="alt text" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
