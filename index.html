@@ -1,28 +1,128 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>PetWellness</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <div class="main-container">
-      <div class="rectangle">
-        <div class="text">
-          <span class="video-explicativo-petwellness"
-            >Video Explicativo de PetWellness</span
-          ><span class="main-features-benefits"
-            >A continuación, te mostraremos un video donde el equipo de
-            desarrollo de PetWellness explica brevemente las principales
-            caracteristicas y beneficios que tiene nuestra plataforma :)
-            </span>
-        </div>
-        <div class="rectangle-1">
-          <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </body>
-</html
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+</head>
+
+<body class="flex-column">
+    <main class="pet-wellness main">
+        <section class="careInfoSection" id="beneficios">
+            <div class="flexCol">
+                <div class="flexRow">
+                    <img class="logoImage1" src="./img/PuntoTurquesa.svg" alt="alt text" /><img class="logoImage2" src="./img/PuntoTurquesaTrans.svg" alt="alt text" /><img class="logoImage3" src="./img/PuntoTurquesaTrans2.svg" alt="alt text" />
+                </div>
+                <img class="mainImage1" src="./img/NuestrosServicios.png" alt="alt text" /><img class="mainImage2" src="./img/NosAdecuamos.png" alt="alt text" />
+                <div class="flexRowMain">
+                    <div class="flexColInfo">
+                        <img class="infoImage" src="./img/PerroAcariciado.png" alt="alt text" />
+                        <h2 class="infoTitle">Información de cuidado</h2>
+                        <h3 class="infoSubtitle">Te brindamos información veridicata sobre el cuidado de tu mascota</h3>
+                        <div class="flexRowButton">
+                            <h5 class="ctaKnowMore">Saber más</h5>
+                            <img class="buttonImage" src="./img/FlechaBlanca.svg" alt="alt text" />
+                        </div>
+                    </div>
+                    <div class="flexColConsultation">
+                        <img class="consultationImage" src="./img/VeterinarioConPerro.png" alt="alt text" />
+                        <h2 class="consultationTitle">Consultas Veterinarias</h2>
+                        <h3 class="consultationSubtitle">Te ayudamos a concertar una cita veterinaria cerca a tu ubicación</h3>
+                        <div class="flexRowButtonConsultation">
+                            <h5 class="ctaKnowMoreConsultation">Saber más</h5>
+                            <img class="buttonImageConsultation" src="./img/FlechaBlanca.svg" alt="alt text" />
+                        </div>
+                    </div>
+                    <div class="flexColSpecialNeeds">
+                        <img class="specialNeedsImage" src="./img/PerroMariposa.png" alt="alt text" />
+                        <h2 class="specialNeedsTitle">Necesidades Especiales</h2>
+                        <h3 class="specialNeedsSubtitle">
+                            Te ayudamos con tu mascota con necesidades especiales o si tu tienes una dificultad con su cuidado
+                        </h3>
+                        <div class="flexRowButtonSpecialNeeds">
+                            <h5 class="ctaKnowMoreSpecialNeeds">Saber más</h5>
+                            <img class="buttonImageSpecialNeeds" src="./img/FlechaBlanca.svg" alt="alt text" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicesSection" id="testimonios">
+            <div class="servicesSection1" style="--src:url(../img/FondoTurquesaNegro.png)">
+                <div class="flex_col">
+                    <h1 class="mainTitle_box">
+                        <span class="mainTitle"
+                ><span class="mainTitle_span0">Con nosotros, sus </span><span class="mainTitle_span1">mascotas </span><span class="mainTitle_span2">serán más </span><span class="mainTitle_span3">felices</span><span class="mainTitle_span4">.</span></span>
+                    </h1>
+                    <div class="flex_row">
+                        <div class="flex_row1">
+                            <img class="improveIcon" src="./img/BloquesConPuntaIzqDer.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="improveTitle">Mejora Constante</h3>
+                                <h5 class="improveDescription">
+                                    Progresamos constantemente para brindar la mejor calidad de servicio
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row2">
+                            <img class="alliancesIcon" src="./img/Personas.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="alliancesTitle">Alianzas Estratégicas</h3>
+                                <h5 class="alliancesDescription">
+                                    Contamos con alianzas que potencian nuestros servicios hacia el cliente
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row3">
+                            <img class="infoIcon" src="./img/Compartir.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="infoTitle">Información Confiable</h3>
+                                <h5 class="infoDescription">
+                                    Brindamos informacion confiable y concreta acerca de algun caso importante o necesario.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_row4">
+                        <div class="flex_row5">
+                            <img class="videoCallIcon" src="./img/Videollamada.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="videoCallTitle">Videollamadas</h3>
+                                <h5 class="videoCallDescription">
+                                    Brindamos la forma te utilizar la tecnologia como un medio de comunicacion con los veterinarios
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row6">
+                            <img class="trackingIcon" src="./img/Calendario.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="trackingTitle">Time Tracking</h3>
+                                <h5 class="trackingDescription">
+                                    Estamos al día en el cuidado de tu mascota, impulsaremos tu conocimiento acerca de sus citas.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row7">
+                            <img class="paymentsIcon" src="./img/TarjetaConCorazon.svg" alt="alt text" />
+                            <div class="flex_col2">
+                                <h3 class="paymentsTitle">Pagos que se adaptan a ti</h3>
+                                <h5 class="paymentsDescription">Contamos con multiples metodos de pago que se adecuan a ti.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socialProof">
+                        <img class="socialIcon1" src="./img/CirculoBlancoGrande.svg" alt="alt text" /><img class="socialIcon2" src="./img/CirculoBlancoGrande.svg" alt="alt text" /><img class="socialIcon3" src="./img/CirculoBlancoGrande.svg" alt="alt text" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
