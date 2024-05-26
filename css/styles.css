@@ -3543,3 +3543,1167 @@ button {
     font-size: 20px;
   }
 }
+
+.preguntas-frecuentes-new.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.preguntas-frecuentes-new .helpSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf4ba;
+}
+.preguntas-frecuentes-new .flexCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 106px auto 155px;
+  width: 1194.046875px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .flexCol {
+    margin: 106px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .preguntas-frecuentes-new .flexCol {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .flexCol {
+    margin: 50px auto;
+  }
+}
+.preguntas-frecuentes-new .heroTitle1 {
+  position: relative;
+  font: 700 60px/0.63 "Inter", Helvetica, Arial, serif;
+  color: #161c2d;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .heroTitle1 {
+    align-items: flex-start;
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .heroTitle1 {
+    font-size: 36px;
+  }
+}
+.preguntas-frecuentes-new .flexCol1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 59px 0px 0px;
+  width: 999.046875px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .flexCol1 {
+    margin: 50px 0px 0px;
+  }
+}
+.preguntas-frecuentes-new .flexCol2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.preguntas-frecuentes-new .contentBox-preguntas {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 96px;
+}
+.preguntas-frecuentes-new .highlightSearch {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 999px;
+  height: 72px;
+  font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+  color: rgba(0, 0, 0, 0.419);
+  background-color: white;
+  border-radius: 11.6374950409px 11.6374950409px 11.6374950409px 11.6374950409px;
+  padding: 31px 41px 22px 41px;
+  transform: translate(-50%, 0);
+}
+.preguntas-frecuentes-new .imageSearch {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  width: 105px;
+  height: 96px;
+  transform: translate(0, -50%);
+}
+.preguntas-frecuentes-new .imageGeneral {
+  position: relative;
+  width: 456.0625px;
+  max-width: 85%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.preguntas-frecuentes-new .imageSupport {
+  position: relative;
+  margin: 0px 36.84% 0px auto;
+  width: 208px;
+  max-width: 85%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 1199px) {
+  .preguntas-frecuentes-new .imageSupport {
+    margin: 0px auto;
+  }
+}
+.preguntas-frecuentes-new .heroTitleFaq {
+  position: relative;
+  margin: 14px 0px 0px;
+  width: 98.32%;
+  font: 700 48px/0.78 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  letter-spacing: -0.15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2470588235);
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .heroTitleFaq {
+    align-items: flex-start;
+    font-size: 44px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .heroTitleFaq {
+    font-size: 36px;
+  }
+}
+.preguntas-frecuentes-new .contentBox-preguntas1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 77px 0px 0px;
+  width: 100%;
+  background-color: #ffd9ac;
+  border-radius: 62px 62px 62px 62px;
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .contentBox-preguntas1 {
+    margin: 50px 0px 0px;
+  }
+}
+.preguntas-frecuentes-new .flexRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 63px auto 107px;
+  width: 89.7%;
+}
+@media (max-width: 767px) {
+  .preguntas-frecuentes-new .flexRow {
+    flex-direction: column;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 575px) {
+  .preguntas-frecuentes-new .flexRow {
+    margin: 63px auto 80px;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .flexRow {
+    margin: 50px auto;
+  }
+}
+.preguntas-frecuentes-new .flexCol3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 278px;
+  min-width: 0px;
+}
+@media (max-width: 767px) {
+  .preguntas-frecuentes-new .flexCol3 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.preguntas-frecuentes-new .mediumTitleAccountHelp {
+  position: relative;
+  font: 900 24px/1.57 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .mediumTitleAccountHelp {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .mediumTitleAccountHelp {
+    font-size: 20px;
+  }
+}
+.preguntas-frecuentes-new .highlightLogin {
+  position: relative;
+  margin: 65px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  cursor: pointer;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightLogin {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .highlightLogin {
+    margin: 50px 0px 0px;
+  }
+}
+.preguntas-frecuentes-new .highlightProfileHelp {
+  position: relative;
+  margin: 34px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  cursor: pointer;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightProfileHelp {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .highlightProfileSettings {
+  position: relative;
+  margin: 54px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  cursor: pointer;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightProfileSettings {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .highlightProfileSettings {
+    margin: 50px 0px 0px;
+  }
+}
+.preguntas-frecuentes-new .highlightSecurity {
+  position: relative;
+  margin: 44px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  cursor: pointer;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightSecurity {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .flexCol4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 283px;
+  min-width: 0px;
+}
+@media (max-width: 767px) {
+  .preguntas-frecuentes-new .flexCol4 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.preguntas-frecuentes-new .mediumTitlePaymentHelp {
+  position: relative;
+  font: 900 24px/1.57 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .mediumTitlePaymentHelp {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .mediumTitlePaymentHelp {
+    font-size: 20px;
+  }
+}
+.preguntas-frecuentes-new .highlightPaymentMethods {
+  position: relative;
+  margin: 69px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  cursor: pointer;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightPaymentMethods {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .highlightPaymentMethods {
+    margin: 50px 0px 0px;
+  }
+}
+.preguntas-frecuentes-new .highlightPaymentHistory {
+  position: relative;
+  margin: 45px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightPaymentHistory {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .highlightPaymentManagement {
+  position: relative;
+  margin: 43px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightPaymentManagement {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .highlightChargesHelp {
+  position: relative;
+  margin: 44px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightChargesHelp {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .flexCol5 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 271px;
+  min-width: 0px;
+}
+@media (max-width: 767px) {
+  .preguntas-frecuentes-new .flexCol5 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.preguntas-frecuentes-new .mediumTitleBookingHelp {
+  position: relative;
+  font: 900 24px/1.57 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .mediumTitleBookingHelp {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .mediumTitleBookingHelp {
+    font-size: 20px;
+  }
+}
+.preguntas-frecuentes-new .highlightOnlineBookings {
+  position: relative;
+  margin: 65px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  cursor: pointer;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightOnlineBookings {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .highlightOnlineBookings {
+    margin: 50px 0px 0px;
+  }
+}
+.preguntas-frecuentes-new .highlightChatConsultations {
+  position: relative;
+  margin: 44px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightChatConsultations {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .highlightRepository {
+  position: relative;
+  margin: 44px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightRepository {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .highlightVeterinarianInfo {
+  position: relative;
+  margin: 44px 0px 0px;
+  font: 700 17px/2.22 "Inter", Helvetica, Arial, serif;
+  color: #00ad97;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .highlightVeterinarianInfo {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.preguntas-frecuentes-new .loginSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #effcdb;
+}
+.preguntas-frecuentes-new .heroTitle {
+  position: relative;
+  margin: 66px 0px 0px;
+  width: 94.86%;
+  font: 700 48px/0.78 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  letter-spacing: -0.15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.preguntas-frecuentes-new .backgroundBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 47px 0px 0px;
+  width: 100%;
+  background: var(--src) center center/100% 100% no-repeat;
+  filter: drop-shadow(0px 2.784277916px 5.5685558319px rgba(171, 190, 209, 0.4));
+}
+.preguntas-frecuentes-new .buttonLayout {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 4px 29px 2px;
+}
+.preguntas-frecuentes-new .heroImage {
+  position: relative;
+  width: 218px;
+  min-width: 0px;
+}
+.preguntas-frecuentes-new .navigationMenu {
+  position: relative;
+  display: flex;
+  gap: 0px 20px;
+  margin: 27px 0px 30px;
+  width: 677px;
+  min-width: 0px;
+}
+.preguntas-frecuentes-new .aboutUsHighlight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-width: 0px;
+  font: 500 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.preguntas-frecuentes-new .servicesHighlight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-width: 0px;
+  font: 500 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.preguntas-frecuentes-new .testimonialsHighlight {
+  position: relative;
+  min-width: 0px;
+  font: 500 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .pricingHighlight {
+  position: relative;
+  min-width: 0px;
+  font: 500 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .faqHighlight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-width: 0px;
+  font: 500 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.preguntas-frecuentes-new .contactHighlight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-width: 0px;
+  font: 500 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.preguntas-frecuentes-new .loginHighlight {
+  position: relative;
+  margin: 28px 0px 29px;
+  min-width: 0px;
+  font: 600 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+}
+.preguntas-frecuentes-new .callToAction {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 18px 0px 20px;
+  width: 153px;
+  min-width: 0px;
+  min-height: 36px;
+}
+.preguntas-frecuentes-new .registerButton {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 153px;
+  height: 36px;
+  font: 800 15px/1.11 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #00ad97;
+  border-radius: 2.784277916px 2.784277916px 2.784277916px 2.784277916px;
+  padding: 9.5px 36px 9.5px 36px;
+}
+.preguntas-frecuentes-new .decorativeImage {
+  position: absolute;
+  top: 13px;
+  right: 22px;
+  width: 11px;
+  height: 11px;
+}
+.preguntas-frecuentes-new .loginInstructions {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2px 0px;
+  width: 91.18%;
+  min-height: 796px;
+}
+.preguntas-frecuentes-new .instructionImage1 {
+  position: absolute;
+  top: 37px;
+  right: 0px;
+  bottom: 0px;
+  left: 744px;
+  width: 569px;
+  height: 759px;
+}
+.preguntas-frecuentes-new .instructionImage2 {
+  position: absolute;
+  top: 0px;
+  right: 248px;
+  bottom: 506px;
+  left: 436px;
+  width: 629px;
+  height: 290px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.247));
+}
+.preguntas-frecuentes-new .instructionImage3 {
+  position: absolute;
+  top: 409px;
+  right: 535px;
+  bottom: 349px;
+  left: 428px;
+  width: 350px;
+  height: 38px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.247));
+}
+.preguntas-frecuentes-new .instructionImage4 {
+  position: absolute;
+  top: 515px;
+  right: 525px;
+  bottom: 103px;
+  left: 415px;
+  width: 373px;
+  height: 178px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.247));
+}
+.preguntas-frecuentes-new .instructionText {
+  position: absolute;
+  top: 267px;
+  right: 858px;
+  bottom: 229px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  width: 455px;
+  height: 300px;
+  font: 400 32px/0.93 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .profileHelpSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  background-color: #effcdb;
+}
+.preguntas-frecuentes-new .contentBox-preguntas2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 66px 430px 607px 37px;
+  width: 973px;
+  height: 566px;
+  min-height: 566px;
+}
+.preguntas-frecuentes-new .infoTitle {
+  position: absolute;
+  top: 322px;
+  right: 467px;
+  bottom: 93px;
+  left: 51px;
+  display: flex;
+  align-items: center;
+  width: 455px;
+  height: 151px;
+  font: 700 32px/0.52 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .profileImage1 {
+  position: absolute;
+  top: 139px;
+  right: 0px;
+  bottom: 209px;
+  left: 510px;
+  width: 463px;
+  height: 218px;
+}
+.preguntas-frecuentes-new .profileImage2 {
+  position: absolute;
+  bottom: 0px;
+  left: 387px;
+  width: 176px;
+  height: 88px;
+}
+.preguntas-frecuentes-new .heroTitle2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 842px;
+  height: 38px;
+  font: 700 48px/0.78 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  letter-spacing: -0.15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2470588235);
+}
+.preguntas-frecuentes-new .profileConfigSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #effcdb;
+}
+.preguntas-frecuentes-new .contentBox-preguntas3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 62px 28px 58px 40px;
+  width: 1372px;
+  height: 1152px;
+  min-height: 1152px;
+}
+.preguntas-frecuentes-new .heroTitle3 {
+  position: absolute;
+  top: 0px;
+  right: 821px;
+  bottom: 1114px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 551px;
+  height: 38px;
+  font: 700 48px/0.78 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  text-align: center;
+  letter-spacing: -0.15px;
+}
+.preguntas-frecuentes-new .profileDescriptionTitle {
+  position: absolute;
+  top: 344px;
+  right: 869px;
+  bottom: 691px;
+  left: 48px;
+  display: flex;
+  align-items: center;
+  width: 455px;
+  height: 117px;
+  font: 700 32px/0.52 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .profileImage11 {
+  position: absolute;
+  top: 144px;
+  right: 402px;
+  bottom: 790px;
+  left: 507px;
+  width: 463px;
+  height: 218px;
+}
+.preguntas-frecuentes-new .profileImage21 {
+  position: absolute;
+  top: 504px;
+  right: 841px;
+  bottom: 545px;
+  left: 425px;
+  width: 106px;
+  height: 103px;
+}
+.preguntas-frecuentes-new .profileImage3 {
+  position: absolute;
+  bottom: 0px;
+  left: 535px;
+  width: 407px;
+  height: 571px;
+}
+.preguntas-frecuentes-new .profileImage4 {
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  width: 374px;
+  height: 866px;
+}
+.preguntas-frecuentes-new .securitySection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #effcdb;
+}
+.preguntas-frecuentes-new .flexCol6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 54px auto 176px;
+  width: 92.08%;
+  max-width: 1325.9375px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .flexCol6 {
+    margin: 54px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .preguntas-frecuentes-new .flexCol6 {
+    margin: 54px auto 80px;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .flexCol6 {
+    margin: 50px auto;
+  }
+}
+.preguntas-frecuentes-new .heroTitle4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 241px;
+  max-width: 85%;
+  font: 700 48px/0.78 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  text-align: center;
+  letter-spacing: -0.15px;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .heroTitle4 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .heroTitle4 {
+    font-size: 36px;
+  }
+}
+.preguntas-frecuentes-new .contentBox-preguntas4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 23px 0px 0px;
+  min-height: 695px;
+}
+.preguntas-frecuentes-new .titleBox_box {
+  position: absolute;
+  top: 172px;
+  right: 830.9375px;
+  bottom: 259px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  width: 495px;
+  height: 264px;
+}
+.preguntas-frecuentes-new .titleBox {
+  font: 700 32px/0.52 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .titleBox {
+    font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .titleBox {
+    font-size: 26px;
+  }
+}
+.preguntas-frecuentes-new .titleBox_span0 {
+  font: 700 1em/0.52 "Inter", Helvetica, Arial, serif;
+}
+.preguntas-frecuentes-new .titleBox_span1 {
+  font: 700 1em/0.93 "Inter", Helvetica, Arial, serif;
+}
+.preguntas-frecuentes-new .titleBox_span2 {
+  font: 700 1em/0.52 "Inter", Helvetica, Arial, serif;
+}
+.preguntas-frecuentes-new .image18 {
+  position: absolute;
+  top: 472px;
+  right: 937.9375px;
+  bottom: 99px;
+  left: 251px;
+  width: 137px;
+  height: 124px;
+}
+.preguntas-frecuentes-new .image19 {
+  position: absolute;
+  top: 278px;
+  left: 469px;
+  width: 343px;
+  height: 189px;
+}
+.preguntas-frecuentes-new .image20 {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 488px;
+  height: 695px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  transform: translate(0, -50%);
+}
+.preguntas-frecuentes-new .heroTitle21 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  margin: 81.5px auto 0px;
+  font: 700 60px/1 "Inter", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .preguntas-frecuentes-new .heroTitle21 {
+    font-size: 52px;
+  }
+}
+@media (max-width: 575px) {
+  .preguntas-frecuentes-new .heroTitle21 {
+    margin: 80px auto 0px;
+  }
+}
+@media (max-width: 479px) {
+  .preguntas-frecuentes-new .heroTitle21 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 383px) {
+  .preguntas-frecuentes-new .heroTitle21 {
+    margin: 50px auto 0px;
+  }
+}
+.preguntas-frecuentes-new .image21 {
+  position: relative;
+  margin: 25.5px auto 0px;
+  width: 90.72%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.preguntas-frecuentes-new .paymentSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #effcdb;
+}
+.preguntas-frecuentes-new .contentBox-preguntas5 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 24px 71px 8px 69px;
+  width: 1300px;
+  height: 1246px;
+  min-height: 1246px;
+}
+.preguntas-frecuentes-new .paymentTitle {
+  position: absolute;
+  top: 363px;
+  right: 787px;
+  bottom: 732px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  width: 513px;
+  height: 151px;
+  font: 700 32px/0.52 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .paymentImage1 {
+  position: absolute;
+  top: 449px;
+  right: 464px;
+  bottom: 767px;
+  left: 447px;
+  width: 389px;
+  height: 30px;
+}
+.preguntas-frecuentes-new .paymentImage2 {
+  position: absolute;
+  top: 456px;
+  right: 432px;
+  bottom: 519px;
+  left: 393px;
+  width: 475px;
+  height: 271px;
+}
+.preguntas-frecuentes-new .paymentImage3 {
+  position: absolute;
+  top: 563px;
+  right: 930px;
+  bottom: 543px;
+  left: 288px;
+  width: 82px;
+  height: 140px;
+}
+.preguntas-frecuentes-new .paymentImage4 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 602px;
+  left: 893px;
+  width: 407px;
+  height: 644px;
+}
+.preguntas-frecuentes-new .paymentImage5 {
+  position: absolute;
+  top: 656px;
+  right: 20px;
+  bottom: 0px;
+  left: 893px;
+  width: 387px;
+  height: 590px;
+}
+.preguntas-frecuentes-new .paymentImage6 {
+  position: absolute;
+  bottom: 12px;
+  left: 398px;
+  width: 386px;
+  height: 542px;
+}
+.preguntas-frecuentes-new .heroTitle5 {
+  position: absolute;
+  top: 98px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 38px;
+  font: 700 48px/0.78 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  text-align: center;
+  letter-spacing: -0.15px;
+}
+.preguntas-frecuentes-new .reservationSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #effcdb;
+}
+.preguntas-frecuentes-new .contentBox-preguntas6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 45px 7px 426px 14px;
+  width: 1419px;
+  height: 1079px;
+  min-height: 1079px;
+}
+.preguntas-frecuentes-new .vetProfileInfoTitle {
+  position: absolute;
+  top: 598.5px;
+  right: 907px;
+  bottom: 196.5px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  width: 512px;
+  height: 284px;
+  font: 700 32px/0.52 "Inter", Helvetica, Arial, serif;
+  color: black;
+  padding: 0px;
+}
+.preguntas-frecuentes-new .reservationInstructionsTitle {
+  position: absolute;
+  top: 209.5px;
+  right: 646px;
+  bottom: 785.5px;
+  left: 260px;
+  display: flex;
+  align-items: center;
+  width: 513px;
+  height: 84px;
+  font: 700 32px/0.52 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .historyInfoTitle {
+  position: absolute;
+  top: 962.5px;
+  right: 0px;
+  bottom: 68.5px;
+  left: 1017px;
+  display: flex;
+  align-items: center;
+  width: 402px;
+  height: 48px;
+  font: 700 32px/0.52 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.preguntas-frecuentes-new .mainImage {
+  position: absolute;
+  top: 0px;
+  right: 21px;
+  bottom: 260px;
+  left: 1017px;
+  width: 381px;
+  height: 819px;
+}
+.preguntas-frecuentes-new .icon1 {
+  position: absolute;
+  top: 832px;
+  right: 242px;
+  bottom: 117px;
+  left: 1160px;
+  width: 17px;
+  height: 130px;
+}
+.preguntas-frecuentes-new .icon2 {
+  position: absolute;
+  top: 279px;
+  right: 426px;
+  bottom: 758px;
+  left: 705px;
+  width: 288px;
+  height: 42px;
+}
+.preguntas-frecuentes-new .profileImage {
+  position: absolute;
+  top: 366px;
+  right: 444px;
+  bottom: 0px;
+  left: 608px;
+  width: 367px;
+  height: 713px;
+}
+.preguntas-frecuentes-new .icon3 {
+  position: absolute;
+  top: 693px;
+  right: 812px;
+  bottom: 197px;
+  left: 513px;
+  width: 94px;
+  height: 189px;
+}
+.preguntas-frecuentes-new .icon4 {
+  position: absolute;
+  top: 558px;
+  right: 813px;
+  bottom: 333px;
+  left: 487px;
+  width: 119px;
+  height: 188px;
+}
+.preguntas-frecuentes-new .icon5 {
+  position: absolute;
+  top: 685px;
+  left: 433px;
+  width: 145px;
+  height: 231px;
+}
+.preguntas-frecuentes-new .heroTitle6 {
+  position: absolute;
+  top: 0px;
+  left: 38.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 217px;
+  height: 38px;
+  font: 700 48px/0.78 "Inter", Helvetica, Arial, serif;
+  color: #7f9c00;
+  text-align: center;
+  letter-spacing: -0.15px;
+}
