@@ -2309,7 +2309,9 @@ button {
 }
 
 .main-container2 {
-    background: linear-gradient(to bottom, #2AA39B, #192928);
+  display: flex;
+  justify-content: center;
+  background: var(--src) center center/cover no-repeat;
 }
 
 .video-explicativo-petwellness {
